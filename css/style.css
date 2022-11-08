@@ -56,6 +56,7 @@
     background: linear-gradient(rgba(240,248,250)  , rgb(250, 250, 250)) left ;
 }
 
+
 #frases{
     transition: 300ms all !important;
 }
@@ -92,6 +93,14 @@
       color: #1da6bb;
   }
 
+
+
+  @media (max-width: 720px) {
+    .img_r {
+        display: none;
+       
+    }
+  }
 
   /*Animacions*/
 @keyframes latido {
