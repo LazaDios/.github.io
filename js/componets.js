@@ -15,8 +15,8 @@ let compatible = '<div class="col-md col-sm-12"><div class="card text-center" id
 
 let mapa = '<div class="col-md  col-sm-12""><div class=" card text-center" id="cardMap"><div class="card-header">Nuestra Universidad</div><div class="card-body p-2"><iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.3277693917992!2d-63.86850215947801!3d10.995548416648562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c318dd48668b061%3A0x44706c911fed8284!2sUniversidad%20de%20Oriente!5e0!3m2!1ses!2sve!4v1667358580051!5m2!1ses!2sve"width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></div>';
 
-footer = document.getElementById('footer');
-footer.innerHTML = '<div class="row bg-light m-1 ">' + desarrollado +compatible + mapa + '</div>';
+//footer = document.getElementById('footer');
+//footer.innerHTML = '<div class="row bg-light m-1 ">' + desarrollado +compatible + mapa + '</div>';
 
 //Barra Final
 barraEnd = document.getElementById('barraEnd');
