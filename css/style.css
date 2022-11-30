@@ -3,7 +3,7 @@
     padding: 0px;
     
 }
-
+    
 .social{
     position: fixed;
     left: 0;
@@ -184,3 +184,77 @@
         font-size: 15px;
     }
   }
+
+  @media (min-width: 992px ) and (max-width: 1199px )  {
+   
+    .line-1{
+        font-size: 21px !important;
+        padding: 11px;
+    }
+  }
+
+  @media (min-width: 768px ) and (max-width: 991px ){
+    .line-1{
+        font-size: 100% !important;
+        padding: 8px !important;
+        left: -10px !important;
+    }
+  }
+
+
+  /*TEXTO QUE SE IMPLEMENTARA EL EFECTO!*/
+
+  .line-1{
+    position: relative;
+    top: 20px;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 160%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+    font-family: 'Anonymous Pro', monospace !important;  
+}
+
+.line-2{
+    font-family: 'Anonymous Pro', monospace !important;
+    font-size: 160%;
+}
+/*Auxiliar para la pagina 3*/
+.lines{
+    position: relative;
+    top: 20px;  
+    width: 100%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(27, 27, 27, 0.75);
+    font-size: 160%;
+    
+    white-space: nowrap ;
+    overflow: hidden;
+    transform: translateY(-50%); 
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2.45s steps(44) 1s 1 normal both,
+              blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0px;}
+  to{width: 12.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(15, 15, 15, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+/*Mover Imagen*/
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+        
+    }
+}
+
